@@ -37,12 +37,13 @@ typedef struct instruction_s
 void div_op(stack_t **stack, unsigned int value);
 void pop(stack_t **stack, unsigned int value);
 void swap_op(stack_t **stack, unsigned int line_number);
-void add_op(stack_t **pointer);
 void nop_op(stack_t **pointer __attribute__((unused)));
 void sub_op(stack_t **pointer);
 void pint_op(stack_t **stack, unsigned int number_line);
 void push_op(stack_t **stack, __attribute__((unused))unsigned int line_number);
 void pall_op(stack_t **stack,  __attribute__((unused))unsigned int line);
 void mul_op(stack_t **stack, unsigned int number_line);
+void mod_op(stack_t **stack, unsigned int number_line);
+void add_op(stack_t **stack, unsigned int number_line);
 
 #endif
