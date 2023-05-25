@@ -51,5 +51,6 @@ void pall_op(stack_t **stack,  __attribute__((unused))unsigned int line);
 void mul_op(stack_t **stack, unsigned int number_line);
 void mod_op(stack_t **stack, unsigned int number_line);
 void add_op(stack_t **stack, unsigned int number_line);
+void release(void*, void*, char);
 
 #endif
